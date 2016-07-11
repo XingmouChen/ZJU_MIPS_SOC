@@ -1,0 +1,12 @@
+*
+!*.v
+!*.sym
+!SAnti_jitter.ngc
+!SEnter_2_32.ngc
+!SSeg7_Dev.ngc
+!ipcore_dir/RAM_B.xco
+!MIO_BUS.ngc
+!SPIO.ngc
+!Org-Sword.ucf
+!topModule.sch
+!.gitignore
