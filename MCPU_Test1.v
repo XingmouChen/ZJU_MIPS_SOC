@@ -12,12 +12,13 @@ module MEMORY (
 	reg [31:0] mem [0:69]; //the memory cells
 
 	initial begin //word address
-		mem[0] = 32'h3c03f000;
-		mem[1] = 32'h2014003f;
-		mem[2] = 32'h3c088000;
-		mem[3] = 32'h00632020;
-		mem[4] = 32'h20020001;
-		mem[5] = 32'h00000827;
+		mem[0] = 32'h3C17E000;
+		mem[1] = 32'h3C16F000;
+		mem[2] = 32'h2008FFF0;
+		mem[3] = 32'hAEC80000;
+		mem[4] = 32'h3C08FFFF;
+		mem[5] = 32'h20080000;
+		mem[6] = 32'hAEE80000;
 	end
 
 	reg [31:0] d[0:3]; //bus linear addr for peripheral devices

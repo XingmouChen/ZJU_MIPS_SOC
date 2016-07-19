@@ -71,7 +71,7 @@ always @* begin
 		4'he: begin	//seg7 e0000000-efffffff
 			GPIOe0000000_we <= mem_w;
 			GPIOe0000000_rd <= ~mem_w;
-			Peripheral_in <= Cpu_data2bus; //light led
+			Peripheral_in <= Cpu_data2bus;
 		end
 		4'hf: begin //PIO f0000000-ffffffff. f0000000 for led, f0000004 for counter
 			if (addr_bus[2] == 1'b1) begin //counter

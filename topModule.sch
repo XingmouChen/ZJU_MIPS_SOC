@@ -162,12 +162,12 @@
         </blockdef>
         <blockdef name="RAM_B">
             <timestamp>2016-7-10T17:42:55</timestamp>
-            <rect width="512" x="32" y="32" height="1344" />
             <line x2="32" y1="80" y2="80" style="linewidth:W" x1="0" />
             <line x2="32" y1="112" y2="112" style="linewidth:W" x1="0" />
             <line x2="32" y1="208" y2="208" style="linewidth:W" x1="0" />
             <line x2="32" y1="272" y2="272" x1="0" />
             <line x2="544" y1="80" y2="80" style="linewidth:W" x1="576" />
+            <rect width="512" x="32" y="32" height="360" />
         </blockdef>
         <blockdef name="inv">
             <timestamp>2000-1-1T10:10:10</timestamp>
@@ -451,10 +451,14 @@
         </block>
     </netlist>
     <sheet sheetnum="1" width="7040" height="5440">
-        <instance x="1072" y="576" name="XLXI_1" orien="R0" />
-        <instance x="1968" y="592" name="XLXI_2" orien="R0" />
-        <instance x="1104" y="896" name="XLXI_3" orien="R0" />
-        <instance x="3024" y="624" name="XLXI_5" orien="R0" />
+        <instance x="1072" y="576" name="XLXI_1" orien="R0">
+        </instance>
+        <instance x="1968" y="592" name="XLXI_2" orien="R0">
+        </instance>
+        <instance x="1104" y="896" name="XLXI_3" orien="R0">
+        </instance>
+        <instance x="3024" y="624" name="XLXI_5" orien="R0">
+        </instance>
         <branch name="RSTN">
             <wire x2="1104" y1="352" y2="352" x1="544" />
         </branch>
@@ -627,7 +631,8 @@
         <branch name="N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0,N0">
             <wire x2="3600" y1="1456" y2="1456" x1="3504" />
         </branch>
-        <instance x="3600" y="2000" name="XLXI_18" orien="R0" />
+        <instance x="3600" y="2000" name="XLXI_18" orien="R0">
+        </instance>
         <branch name="SW_OK(7:5)">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="3440" y="1328" type="branch" />
             <wire x2="3440" y1="1328" y2="1328" x1="3392" />
@@ -703,7 +708,8 @@
             <attrtext style="alignment:SOFT-RIGHT;fontsize:28;fontname:Arial" attrname="Name" x="3488" y="1968" type="branch" />
             <wire x2="3600" y1="1968" y2="1968" x1="3488" />
         </branch>
-        <instance x="2160" y="3040" name="XLXI_33" orien="R0" />
+        <instance x="2160" y="3040" name="XLXI_33" orien="R0">
+        </instance>
         <branch name="Clk_CPU">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="1440" y="864" type="branch" />
             <wire x2="1536" y1="1136" y2="1136" x1="1200" />
@@ -715,8 +721,10 @@
             <wire x2="1536" y1="864" y2="1136" x1="1536" />
         </branch>
         <instance x="1728" y="1168" name="XLXI_35" orien="R0" />
-        <instance x="2160" y="3984" name="XLXI_34" orien="R0" />
-        <instance x="3088" y="2576" name="XLXI_36" orien="R0" />
+        <instance x="2160" y="3984" name="XLXI_34" orien="R0">
+        </instance>
+        <instance x="3088" y="2576" name="XLXI_36" orien="R0">
+        </instance>
         <branch name="CPU2IO(31:0)">
             <attrtext style="alignment:SOFT-BCENTER;fontsize:28;fontname:Arial" attrname="Name" x="2736" y="2272" type="branch" />
             <wire x2="2160" y1="3888" y2="3888" x1="2080" />
@@ -854,7 +862,8 @@
             <wire x2="3024" y1="288" y2="288" x1="1856" />
             <wire x2="1664" y1="176" y2="304" x1="1664" />
         </branch>
-        <instance x="1216" y="2864" name="XLXI_40" orien="R0" />
+        <instance x="1216" y="2864" name="XLXI_40" orien="R0">
+        </instance>
         <branch name="XLXN_205">
             <wire x2="1216" y1="2448" y2="2448" x1="1152" />
             <wire x2="1152" y1="2448" y2="2992" x1="1152" />

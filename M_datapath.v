@@ -213,7 +213,7 @@ always @* begin
 end
 
 //register file write data input
-always @(MemtoReg) begin 
+always @* begin 
 	case(MemtoReg)
 		2'b00: begin //alu_reg 
 			rf_I_data <= alu_reg_O;

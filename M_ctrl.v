@@ -329,7 +329,7 @@ always @* begin
 		ALUSrcB <= 2'b01;
 	else if (State == ST_ID) //word-addressing, branch address
 		ALUSrcB <= 2'b11;
-	else if (State == ST_M_ADDR || State == ST_I_EXE) //byte-addressing,
+	else if (State == ST_M_ADDR || State == ST_I_EXE) //byte-addressing, sign extend
 		ALUSrcB <= 2'b10;
 end
 
